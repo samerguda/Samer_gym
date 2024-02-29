@@ -1,0 +1,50 @@
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: hsl(48, 81%, 48%);
+    gap: 40px;
+    padding: 20px;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    
+}
+
+a {
+    display: block;
+    padding:8px;
+    background-color: #dddddd;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding : 0
+}
+
+li {
+    float: left;
+    text-decoration: none;
+}
+
+li a{
+    text-align: center;
+    padding:14px 16px;
+    text-decoration:none;
+    color:  hsl(48, 81%, 48%)
+}
+
+#main{
+    display: inline-block;
+}
+
+li a:hover{
+    background-color: #111;
+}
